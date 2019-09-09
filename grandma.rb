@@ -5,12 +5,13 @@
 # unless you shout it (type in all capitals).
 
 def speak_to_grandma(message)
+
   if message.upcase == message
-    puts "NO, NOT SINCE 1938!"
+    response = "NO, NOT SINCE 1938!"
   elsif message == "I LOVE YOU GRANDMA!"
-    puts "I LOVE YOU TOO PUMPKIN!"
+    response = "I LOVE YOU TOO PUMPKIN!"
   else
-    return "HUH?! SPEAK UP, SONNY!"
+    response "HUH?! SPEAK UP, SONNY!"
   end
 end
 
