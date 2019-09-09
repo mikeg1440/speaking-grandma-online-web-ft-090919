@@ -13,13 +13,13 @@ def speak_to_grandma(message)
   elsif message.upcase == message
     resp = "NO, NOT SINCE 1938!"
   else
-    resp ="HUH?! SPEAK UP, SONNY!"
+    resp = "HUH?! SPEAK UP, SONNY!"
   end
 
   resp
 end
 
-puts speak_to_grandma("Hi!")
+# puts speak_to_grandma("Hi!")
 # If you shout, she can hear you (or at least she thinks so)
 # and yells back
 
