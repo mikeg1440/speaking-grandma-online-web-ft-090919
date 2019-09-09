@@ -6,16 +6,17 @@
 
 def speak_to_grandma(message)
 
-  response = ""
+  resp = ""
 
   if message == "I LOVE YOU GRANDMA!"
-    response = "I LOVE YOU TOO PUMPKIN!"
+    resp = "I LOVE YOU TOO PUMPKIN!"
   elsif message.upcase == message
-    response = "NO, NOT SINCE 1938!"
+    resp = "NO, NOT SINCE 1938!"
   else
-    response "HUH?! SPEAK UP, SONNY!"
+    resp "HUH?! SPEAK UP, SONNY!"
   end
-  response
+  
+  resp
 end
 
 # If you shout, she can hear you (or at least she thinks so)
