@@ -6,6 +6,8 @@
 
 def speak_to_grandma(message)
 
+  response = ""
+
   if message == "I LOVE YOU GRANDMA!"
     response = "I LOVE YOU TOO PUMPKIN!"
   elsif message.upcase == message
