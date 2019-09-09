@@ -15,7 +15,7 @@ def speak_to_grandma(message)
   else
     response "HUH?! SPEAK UP, SONNY!"
   end
-  p response
+  response
 end
 
 # If you shout, she can hear you (or at least she thinks so)
