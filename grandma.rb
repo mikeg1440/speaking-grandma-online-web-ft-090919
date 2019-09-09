@@ -16,7 +16,7 @@ def speak_to_grandma(message)
     response = "HUH?! SPEAK UP, SONNY!"
   end
 
-  resp
+  response
 end
 
 # puts speak_to_grandma("Hi!")
