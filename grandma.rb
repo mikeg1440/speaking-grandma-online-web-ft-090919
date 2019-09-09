@@ -19,6 +19,7 @@ def speak_to_grandma(message)
   resp
 end
 
+puts speak_to_grandma("Hi!")
 # If you shout, she can hear you (or at least she thinks so)
 # and yells back
 
