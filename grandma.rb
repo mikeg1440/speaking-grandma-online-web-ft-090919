@@ -16,7 +16,7 @@ def speak_to_grandma(message)
     resp "HUH?! SPEAK UP, SONNY!"
   end
 
-  return resp
+  resp
 end
 
 puts speak_to_grandma("Hi!")
